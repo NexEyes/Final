@@ -17,81 +17,83 @@
         tools:layout_editor_absoluteY="278dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/topRightbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="TopRightClick"
         android:text="Button"
         tools:layout_editor_absoluteX="281dp"
         tools:layout_editor_absoluteY="190dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/midRightbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="midRightClick"
         android:text="Button"
         tools:layout_editor_absoluteX="281dp"
         tools:layout_editor_absoluteY="255dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/botRightbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="botRightClick"
         android:text="Button"
         tools:layout_editor_absoluteX="281dp"
         tools:layout_editor_absoluteY="323dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/botLeftbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="botLeftClick"
         android:text="Button"
         tools:layout_editor_absoluteX="63dp"
         tools:layout_editor_absoluteY="323dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/midLeftbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="midLeftClick"
         android:text="Button"
         tools:layout_editor_absoluteX="63dp"
         tools:layout_editor_absoluteY="255dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/TopMiddlebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="topMidClick"
         android:text="Button"
         tools:layout_editor_absoluteX="172dp"
         tools:layout_editor_absoluteY="190dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Middlebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="MiddleClick"
         android:text="Button"
         tools:layout_editor_absoluteX="172dp"
         tools:layout_editor_absoluteY="255dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/botMiddlebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="botMidClick"
         android:text="Button"
         tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="323dp" />
+        tools:layout_editor_absoluteY="323dp"
+        tools:ignore="InvalidId" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/topLeftButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="190dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:onClick="topLeftClick"
         android:text="Button"
         tools:layout_editor_absoluteX="63dp"
         tools:layout_editor_absoluteY="190dp" />
